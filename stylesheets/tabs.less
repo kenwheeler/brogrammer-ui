@@ -1,0 +1,98 @@
+@import "ui-variables";
+@tab-radius: 3px;
+@modified-icon-width: 8px;
+@tab-top-padding: 0px;
+@tab-bottom-border-height: 8px;
+@tab-border: 1px solid @tab-border-color;
+@tab-bar-bottom-border-color: #111;
+
+@-webkit-keyframes pulse {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+.tab-bar {
+  height: @tab-height + 5;
+  background: @tab-bar-background-color;
+  padding: 0 0px 0 0px;
+  box-sizing: border-box;
+
+  .tab {
+    position: relative;
+    top: @tab-top-padding;
+    height: auto;
+    line-height: @tab-height;
+    color: @text-color;
+    padding-left: 15px;
+    margin-left: 0px;
+    background: @tab-background-color;
+    border: none;
+    border-bottom: 5px solid @tab-background-color-secondary;
+
+    &:after {
+      content: '';
+      background: @tab-background-color-secondary;
+      height: @tab-height;
+      width: 1px;
+      position: absolute;
+      bottom: -5px;
+      right: 0px;
+    }
+
+    .close-icon {
+      z-index: 3;
+      line-height: @tab-height;
+    }
+
+    &.modified:not(:hover) .close-icon {
+      top: @tab-height/2 - @modified-icon-width/2 + 1px;
+      right: 14px;
+      width: @modified-icon-width;
+      height: @modified-icon-width;
+      border: 2px solid @background-color-wild;
+      -webkit-animation-name: pulse;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+    }
+
+    &:first-child {
+      margin-left: 0px;
+      padding-left: 15px;
+    }
+  }
+
+  .tab.active {
+    z-index: 10;
+    line-height: @tab-height;
+    color: @text-color-highlight;
+    border: none;
+    background-color: @background-color-highlight;
+    border-bottom: 5px solid @background-color-wild;
+
+    .title{
+      position: relative;
+    }
+
+    .close-icon {
+      line-height: @tab-height;
+    }
+
+  }
+
+  .tab:hover {
+    color: @text-color-highlight;
+  }
+
+  .tab.active:hover .close-icon {
+    color: @text-color-highlight;
+  }
+
+  .placeholder {
+    height: @tab-height + @tab-top-padding + @tab-bottom-border-height;
+    &:after {
+      top: @tab-height + @tab-top-padding + @tab-bottom-border-height;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "brogrammer-ui",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Crack a red bull and get this party started",
+  "license": "MIT",
+  "repository": "https://github.com/kenwheeler/brogrammer-ui",
+  "keywords": [
+    "dark",
+    "flat",
+    "brogrammer"
+  ],
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}
