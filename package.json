@@ -11,6 +11,6 @@
     "brogrammer"
   ],
   "engines": {
-    "atom": ">0.40.0"
+    "atom": ">0.50.0"
   }
 }
