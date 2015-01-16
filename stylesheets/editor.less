@@ -1,7 +1,7 @@
 @import "ui-variables";
 @import "ui-mixins";
 
-.editor.mini {
+.atom-text-editor[mini] {
   color: @text-color-highlight;
   background-color: @input-background-color;
   border: 1px solid @input-border-color;
@@ -14,26 +14,27 @@
   .selection .region { background-color: lighten(@input-background-color, 10%); }
 }
 
-.editor.editor-colors.mini.is-focused {
+.atom-text-editor.atom-text-editor-colors.mini.is-focused {
   background-color: darken(@input-background-color, 5%);
   .selection .region { background-color: lighten(@input-background-color, 10%); }
 }
 
 // FIXME: these should go in syntax themes?
-.editor .gutter.drop-shadow {
-  -webkit-box-shadow: -2px 0 10px 2px #222;
+atom-text-editor, atom-text-editor::shadow {
+  .gutter.drop-shadow {
+    -webkit-box-shadow: -2px 0 10px 2px #222;
+  }
 }
-
 @-webkit-keyframes highlight {
   from { background-color: rgba(100, 255, 100, 0.7); }
   to { background-color: null; }
 }
-.editor .highlighted.selection .region {
+.atom-text-editor .highlighted.selection .region {
   -webkit-animation-name: highlight;
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
 }
 
-.editor .wrap-guide {
+.atom-text-editor .wrap-guide {
   background: fade(@background-color-wild,20%);
 }
