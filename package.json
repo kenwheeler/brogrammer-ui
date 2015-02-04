@@ -1,7 +1,7 @@
 {
   "name": "brogrammer2-ui",
   "theme": "ui",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "An updated fork of the Brogrammer theme for atom",
   "license": "MIT",
   "repository": "https://github.com/ItzBlitz98/brogrammer2-ui",
