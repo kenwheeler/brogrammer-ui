@@ -17,4 +17,4 @@ Or just search for brogrammer2-ui in the theme install section in atom's setting
 
 ![Preview](https://i.imgur.com/29kblBd.png)
 
-![Preview](https://i.imgur.com/29kblBd.png)
+![Preview](https://i.imgur.com/1oS3IMq.png)
