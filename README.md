@@ -1,13 +1,9 @@
 # Brogrammer theme
 
-Brogrammer theme for Atom.
+An updated fork of the Brogrammer theme for atom.
 
-I can do more pushups than you can.
+Preview:
 
-Preview: 
+![Preview](https://i.imgur.com/29kblBd.png)
 
-![Preview](http://i.imgur.com/sX0OWz2.png)
-
-Custom Icon:
-
-![Icon](http://i.imgur.com/j1Udtgf.png)
+![Preview](https://i.imgur.com/29kblBd.png)
