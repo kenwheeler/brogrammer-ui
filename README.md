@@ -1,16 +1,18 @@
 # Brogrammer theme
 
-An updated fork of the Brogrammer theme for atom.
+Brogrammer theme for Atom.
+
+I can do more pushups than you can.
 
 ## Install:
 
 You can install it using using apm:
 ````
-apm install brogrammer2-ui
+apm install brogrammer-ui
 
 ````
 
-Or just search for brogrammer2-ui in the theme install section in atom's settings.
+Or just search for brogrammer-ui in the theme install section in atom's settings.
 
 
 ## Preview:
