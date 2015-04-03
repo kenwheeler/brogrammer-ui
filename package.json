@@ -1,10 +1,10 @@
 {
-  "name": "brogrammer-ui",
+  "name": "brogrammer2-ui",
   "theme": "ui",
-  "version": "0.4.0",
-  "description": "Crack a red bull and get this party started",
+  "version": "0.5.0",
+  "description": "An updated fork of the Brogrammer theme for atom",
   "license": "MIT",
-  "repository": "https://github.com/kenwheeler/brogrammer-ui",
+  "repository": "https://github.com/ItzBlitz98/brogrammer2-ui",
   "keywords": [
     "dark",
     "flat",
