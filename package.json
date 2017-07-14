@@ -1,16 +1,16 @@
 {
-  "name": "brogrammer-ui",
+  "name": "brogrammer-harder-ui",
   "theme": "ui",
-  "version": "1.0.0",
-  "description": "An updated fork of the Brogrammer theme for atom",
+  "version": "1.3.0",
+  "description": "A twice updated fork of the Brogrammer theme for atom",
   "license": "MIT",
-  "repository": "https://github.com/kenwheeler/brogrammer-ui",
+  "repository": "https://github.com/apedley/brogrammer-harder-ui",
   "keywords": [
     "dark",
     "flat",
     "brogrammer"
   ],
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">1.13.0"
   }
 }
